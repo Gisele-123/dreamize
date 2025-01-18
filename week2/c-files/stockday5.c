@@ -5,18 +5,17 @@ int main(){
 	int i=0;
 	int sum=0;
 	int average;
-	int count=0;
+	int n=0;
 	while(i<5){
 		printf("Product %d Stock: %d\n", i+1, stock[i]);
-		count++;
+		n++;
 		sum=sum+stock[i];
-		average=sum/count;
+		average=sum/n;
 		i++;
 	}
 	printf("\n\n\n");
 	printf("Total stock: %d\n", sum);
-	printf("Total stock: %d\n", average);
-	
+	printf("Average stock: %d\n", average);
 	
 	return 0;
 }
